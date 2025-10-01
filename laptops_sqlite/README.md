@@ -1,44 +1,80 @@
 # 💻 Noteb Laptop Database (SQLite Fork)
 
----
-
-## 📖 Overview
-This project is a **fork** of the original [Noteb Laptop Database](https://noteb.com), which contains a large dataset of **laptop specifications** from various manufacturers and models.
-
-The goal of this fork is to:
-- Convert the original dataset into **SQLite** for easier access and portability.
-- Clean and normalize the data for better consistency.
-- Provide a developer-friendly resource for queries, analysis, and integration.
+> A portable SQLite database of laptop specifications collected from Noteb.  
+> Ideal for developers, researchers, and laptop enthusiasts.
 
 ---
 
-## ⚡ Features
-- ✅ SQLite database format (`.sqlite`) — portable and lightweight
-- ✅ Structured tables for laptops, components, and specifications
-- ✅ Ongoing data cleaning and completion of missing values
-- ✅ Open for community contributions
+## 🔹 What is this?
+
+This is a **forked and improved** version of the Noteb Laptop Database.  
+- Data has been converted to **SQLite** for easy integration.  
+- Missing specs and inconsistencies are being cleaned and normalized.  
+- Ready to use for queries, analytics, and applications.
 
 ---
 
-## 🤝 Contributing
+## ⚡ Key Features
+- Lightweight and portable **SQLite database** (`laptops.sqlite`)  
+- Structured tables for laptops, CPUs, GPUs, RAM, and more  
+- Easy to query and extend  
+- Open for contributions and improvements
 
-Contributions are **welcome**!  
+---
+
+## 🗂️ Quick Look at Repository
+```
+📦 NOTEB_DATABASE_MAY2025
+┣ 📂laptops_sqlite # (Main SQLite database)
+┃ ┣🐍database.py
+┃ ┣💾DB.db
+┃ ┗📖README.md # (My README)
+┣ 📝LICENSE
+┣ 🗃️noteb_sdb.sql
+┣ 🗃️notebro_arch.sql
+┣ 🗜️notebro_buy.zip
+┣ 🗃️notebro_db.sql
+┣ 🗃️noteb_prices.sql
+┣ 🗃️noteb_site.sql
+┣ 🗜️notebro_wp.zip
+┗ 📖README.md
+```
+---
+
+## 🚀 Getting Started
+
+### Clone Repository
+```bash
+git clone https://github.com/USERNAME/NotebLaptopDatabase.git
+cd NotebLaptopDatabase/data
+```
+---
+
+## 🤝 Contribute
+
+We welcome contributions!  
 - 🐛 Report issues  
 - 💡 Suggest improvements  
 - 🔥 Submit pull requests  
+
+Please follow the database structure and maintain consistency.
 
 ---
 
 ## 📜 License
 
-Distributed under the MIT License. See `LICENSE` for details.
+MIT License — See `LICENSE` for details.
 
 ---
 
-## 🚀 Roadmap
-- [ ] Complete missing specs
-- [ ] Add more brands/models
-- [ ] Publish API examples
-- [ ] Create visualization dashboards
+## 📌 Roadmap
 
+- [ ] Complete missing specifications  
+- [ ] Add new brands and models  
+- [ ] use this DB for personal projects  
 
+---
+
+## ℹ️ NOTES
+
+This database is continuously updated. Contributions are encouraged to help improve coverage and accuracy.
