@@ -2,6 +2,7 @@
 
 > A portable SQLite database of laptop specifications collected from Noteb.  
 > Ideal for developers, researchers, and laptop enthusiasts.
+> Special thanks to [@starchaserltd](https://github.com/starchaserltd) for the original dataset.
 
 ---
 
@@ -79,4 +80,4 @@ MIT License — See `LICENSE` for details.
 
 This SQLite database is ready to use for analysis, research, or personal projects.  
 You can easily query, extend, and integrate it into your applications.
-
+Special thanks to [@starchaserltd](https://github.com/starchaserltd) for the original dataset.
