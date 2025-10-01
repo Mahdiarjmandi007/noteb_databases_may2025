@@ -15,7 +15,7 @@ This is a **forked and improved** version of the Noteb Laptop Database.
 ---
 
 ## ⚡ Key Features
-- Lightweight and portable **SQLite database** (`laptops.sqlite`)  
+- Lightweight and portable **SQLite database** (`laptops_sqlite`)  
 - Structured tables for laptops, CPUs, GPUs, RAM, and more  
 - Easy to query and extend  
 - Open for contributions and improvements
@@ -25,10 +25,10 @@ This is a **forked and improved** version of the Noteb Laptop Database.
 ## 🗂️ Quick Look at Repository
 ```
 📦 NOTEB_DATABASE_MAY2025
-┣ 📂laptops_sqlite # (Main SQLite database)
+┣ 📂laptops_sqlite #Main SQLite database
 ┃ ┣🐍database.py
 ┃ ┣💾DB.db
-┃ ┗📖README.md # (My README)
+┃ ┗📖README.md #My README
 ┣ 📝LICENSE
 ┣ 🗃️noteb_sdb.sql
 ┣ 🗃️notebro_arch.sql
@@ -45,8 +45,8 @@ This is a **forked and improved** version of the Noteb Laptop Database.
 
 ### Clone Repository
 ```bash
-git clone https://github.com/USERNAME/NotebLaptopDatabase.git
-cd NotebLaptopDatabase/data
+git clone https://github.com/Mahdiarjmandi007/noteb_databases_may2025.git
+cd NotebLaptopDatabase/laptops_sqlite
 ```
 ---
 
@@ -75,6 +75,8 @@ MIT License — See `LICENSE` for details.
 
 ---
 
-## ℹ️ NOTES
+## ℹ️ Notes
 
-This database is continuously updated. Contributions are encouraged to help improve coverage and accuracy.
+This SQLite database is ready to use for analysis, research, or personal projects.  
+You can easily query, extend, and integrate it into your applications.
+
