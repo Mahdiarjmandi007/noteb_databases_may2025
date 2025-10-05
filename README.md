@@ -28,8 +28,7 @@ This is a **forked and improved** version of the Noteb Laptop Database.
 📦 NOTEB_DATABASE_MAY2025
 ┣ 📂laptops_sqlite #Main SQLite database
 ┃ ┣🐍database.py
-┃ ┣💾DB.db
-┃ ┗📖README.md #My README
+┃ ┗💾DB.db 
 ┣ 📝LICENSE
 ┣ 🗃️noteb_sdb.sql
 ┣ 🗃️notebro_arch.sql
